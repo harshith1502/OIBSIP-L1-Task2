@@ -1,0 +1,238 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+#label a{
+    font-family: "Oleo Script", sans-serif;
+    color: rgba(165, 165, 153, 0.819);
+    font-size: 30px;}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+   
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+header a {
+    color: rgb(163, 163, 157);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+header nav a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(179, 179, 172);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+
+#about{
+   
+    
+    background: url('');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.skills {
+    margin-top: 20px;
+  }
+  
+  .skills h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border: 1px solid #000000;
+    background-color: #8a8585;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .skill::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.2);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s;
+  }
+  
+  .skill:hover::before {
+    opacity: 1;
+  }
+  
+  
+
+  .projects {
+    margin-top: 20px;
+  }
+  
+  .projects h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .project-card {
+    background-color: #817b7b;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .project-card p {
+    margin-bottom: 10px;
+  
+  }
+  
+  .project-card .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .project-card .btn:hover {
+    background-color: #555;
+  }
+  
+  
+
+  
+  .certifications {
+    margin-top: 20px;
+  }
+  
+  .certifications h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .certification-triangle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .certification-item {
+    width: 30%;
+    height: 40%;
+    margin: 0 10px;
+  }
+  
+  .certification-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+
+  .about {
+    margin-top: 20px;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20px; /* Add margin-top */
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-content img {
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+ 
+
+  
+  
+  
